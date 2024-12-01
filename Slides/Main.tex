@@ -1,0 +1,204 @@
+\documentclass[aspectratio=169, 10pt]{beamer} % dvipsnames gives more built-in colors
+\usepackage{preamble}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage{mathtools}
+\usepackage{amsmath, array}
+\DeclareMathOperator*{\argmax}{arg\,max}
+%\usepackage{epsfig}
+\usepackage{makecell,multirow,diagbox} 
+\usepackage{verbatim}
+\usepackage{enumerate}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage{slashbox,multirow}
+\usepackage{epstopdf}
+\usepackage{placeins}
+\usepackage{algorithmicx}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{color, colortbl}
+\usepackage{siunitx}
+\usepackage{threeparttable}
+\usepackage{bm}
+\usepackage[compatibility=false, font=footnotesize]{caption}
+\usepackage{subcaption}
+\usepackage[table]{xcolor}
+\usepackage{amssymb}
+\usepackage{pifont}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage[dvipsnames]{xcolor}
+% \usepackage{algorithm}      % For the algorithm environment
+% \usepackage{algorithmic}    % For the algorithmic environment
+\usepackage{pgfgantt}   % For creating Gantt charts
+\usepackage{float}      % For precise control over the position of figures and Gantt charts
+\usepackage{listings}
+\usepackage{xcolor}
+
+\definecolor{darkgray}{rgb}{0.4, 0.4, 0.4}
+\definecolor{gray}{rgb}{0.5, 0.5, 0.5}
+\definecolor{lightgray}{rgb}{0.95, 0.95, 0.95}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{lightgray},
+    commentstyle=\color{darkgray},
+    keywordstyle=\color{black}\bfseries,
+    numberstyle=\tiny\color{gray},
+    stringstyle=\color{darkgray},
+    basicstyle=\fontsize{8}{10},
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=8pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+% ready for the next
+\title{AC/DC power flow aimed at large scale systems}
+\institute{\large{\textbf{Large Scale Systems Week} \\[2.5ex] {eRoots Analytics}}}
+\date{02/12/2024 \newline Hamburg, Germany}
+\author[Josep Fanals]{Josep Fanals i Batllori}
+\subject{Master's Degree in Energy Engineering}
+
+
+
+% ---content---
+\begin{document}
+
+\begin{frame}[plain]
+\hspace*{-1.0cm}\parbox[t]{\textwidth}{
+	\titlepage
+    } 
+\end{frame}
+
+\begin{frame}{Contents}
+	\footnotesize
+	\tableofcontents
+\end{frame}
+
+
+% \input{Chapters/Introduction}
+% \input{Chapters/GridModel}
+% \input{Chapters/OptimizationProblem}
+% \input{Chapters/Results}
+
+
+% 1. Introduction
+\input{Chapters/1intro.tex}
+
+% 2. Theory, say something on grid of grids
+\input{Chapters/2theory.tex}
+
+% 3. Installation
+\input{Chapters/3installation.tex}
+
+% 4. Practical (bulk of the work)
+\input{Chapters/4practical.tex}
+
+% 5. Conclusions (just promote GridCal)
+\input{Chapters/5conclusions.tex}
+
+\begin{frame}[plain]
+\hspace*{-1.0cm}\parbox[t]{\textwidth}{
+	\titlepage
+    } 
+\end{frame}
+
+% \begin{frame}{Environmental, Social, and Gender Impact}
+%     \begin{itemize}
+%         \item \textbf{Environmental Impact}: 
+%         The algorithm improves renewable energy integration, facilitating wind and solar power integration, which is crucial for reducing greenhouse gas emissions.
+        
+%         \item \textbf{Social Impact}: 
+%         Increased efficiency leads to reduced operational costs, which can lower electricity prices, improving access to reliable power and reducing energy poverty in developing regions.
+        
+%         \item \textbf{Gender Impact}: 
+%         By lowering household energy costs, the algorithm alleviates financial burdens that disproportionately affect women, especially in energy-poor regions. It also creates more equitable opportunities by improving energy access for education, healthcare, and economic participation.
+%     \end{itemize}
+% \end{frame}
+
+
+% \begin{frame}{Time Planning}
+%     The time spent on this project is broken down in the chart below. Many tasks were performed in parallel, and at times going back and forth between different processes.
+
+%     \begin{figure}[htbp]
+%         \centering
+%         \begin{ganttchart}[
+%             vgrid={*{32}{draw=none}, dotted},
+%             hgrid,
+%             title/.append style={fill=none},
+%             title label font=\bfseries\footnotesize,
+%             title label anchor/.append style={below=-1.6ex},
+%             include title in canvas=false,
+%             bar/.append style={fill=gray!30},
+%             bar label font=\small\sf,
+%             bar label node/.append style={left=3pt},
+%             bar incomplete/.append style={fill=gray},
+%             x unit=0.3cm, % Decreased width
+%             y unit title=0.5cm,
+%             y unit chart=0.6cm
+%         ]{1}{32}  % 32 blocks representing a finer division
+%             % Months title (each multiplied by 4)
+%             \gantttitle{2024}{32} \\
+%             \gantttitle{Jan}{4}
+%             \gantttitle{Feb}{4}
+%             \gantttitle{Mar}{4}
+%             \gantttitle{Apr}{4}
+%             \gantttitle{May}{4}
+%             \gantttitle{Jun}{4}
+%             \gantttitle{Jul}{4}
+%             \gantttitle{Aug}{4} \\
+%             % Tasks
+%             \ganttbar{Literature Review}{6}{12} \\
+%             \ganttbar{Model Development}{8}{20} \\
+%             \ganttbar{Model Validation}{16}{24} \\
+%             \ganttbar{GridCal Prototype}{20}{28} \\
+%             \ganttbar{Benchmarking}{28}{30} \\
+%             \ganttbar{Documentation}{30}{32}  % Ending at the 32nd block
+%         \end{ganttchart}
+%         \caption{Gantt Chart for the project.}
+%     \end{figure}
+% \end{frame}
+
+% \begin{frame}{Budget}
+%     In the table below, we see the costs associated with the project. The project was done in conjunction with eRoots Analytics SL, over a period of 24 weeks. These hours were split between the development engineer and the supervisor.
+
+%     \begin{table}[H]
+%         \centering
+%         \caption{Costs of the project.}
+%         \label{tab:costs}
+%         \begin{tabular}{|l|c|c|c|}
+%         \hline
+%         \textbf{Role} & \textbf{Hours} & \textbf{Hourly Rate (€)} & \textbf{Total Cost (€)} \\ \hline
+%         Development Engineer & 520 & 50 & 26.000 \\ \hline
+%         Supervisor & 260 & 60 & 15.600 \\ \hline
+%         \textbf{Total} & \textbf{780} & \textbf{} & \textbf{41.600} \\ \hline
+%         \end{tabular}
+%     \end{table}
+%     The total cost of the project was € 41.600.
+% \end{frame}
+
+
+% \begin{frame}{Depth-First Search (DFS)}
+%     \begin{figure}[H]
+%         \centering
+%         \includegraphics[width=0.8\textwidth]{chapter5pics/dfs.png}
+%         \caption{Depth-First Search (DFS) algorithm.}
+%         \label{fig:dfs}
+%     \end{figure}
+% \end{frame}
+
+
+
+
+\end{document}
+

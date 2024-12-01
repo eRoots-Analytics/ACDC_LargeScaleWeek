@@ -1,0 +1,45 @@
+\section{Conclusions}
+\begin{frame}{}
+    \tableofcontents[currentsection]
+\end{frame}
+
+\begin{frame}{Conclusions}
+ 
+    \textcolor{green}{\ding{51}} A generalised power flow formulation has been demonstrated that solves both AC and DC systems, benchmarked against GridCal's classical method.
+
+    \textcolor{green}{\ding{51}} The proposed solver reliably converges in our test cases and the solution shows strong accuracy to the classical method.
+
+    \textcolor{green}{\ding{51}} The generalised approach enables solving systems where classical methods fail, such as the modified AC/DC IEEE 118-bus system.
+   
+    \textcolor{green}{\ding{51}} The solver scales efficiently, maintaining a linear relationship between system size and the number of iterations required for convergence.
+    
+\end{frame}
+
+
+\begin{frame}{Impact}
+    \begin{itemize}
+        \item Developed a robust and scalable approach for solving AC/DC systems.
+        \item Implemented the solution in an open-source format, accessible to everyone.
+        \item Preparing a research paper for upcoming conferences to share findings.
+    \end{itemize}
+\end{frame}
+
+
+
+\begin{frame}{Future Work}
+
+    \begin{itemize}
+        \item \textbf{Incorporation of Current Limits for VSCs}: 
+        To begin considering the capability curves of the converters and perform checks during iterations to adjust setpoints when limits are reached.
+
+        \item \textbf{Code Optimization}: 
+        To optimize the handling of large-scale mismatch matrices and Jacobians, focusing on reducing computational complexity, especially when dealing with sparse matrices.
+
+        \item \textbf{Common Compiler for Control Schemes}: 
+        To align the differences in control schemes for VSCs and controllable transformers between the current GridCal models and the generalised formulation. This will extend GridCal’s capabilities and ensure logical control scheme integration from a power systems perspective.
+
+    \end{itemize}
+
+\end{frame}
+
+

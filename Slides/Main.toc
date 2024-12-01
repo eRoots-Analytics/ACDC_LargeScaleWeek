@@ -1,0 +1,12 @@
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{AC/DC theory}{7}{0}{2}
+\beamer@subsectionintoc {2}{1}{Grid basics}{8}{0}{2}
+\beamer@subsectionintoc {2}{2}{AC/DC converters}{10}{0}{2}
+\beamer@subsectionintoc {2}{3}{The power flow}{12}{0}{2}
+\beamer@subsectionintoc {2}{4}{Solving approach}{13}{0}{2}
+\beamer@sectionintoc {3}{Installation}{15}{0}{3}
+\beamer@sectionintoc {4}{Practical cases}{20}{0}{4}
+\beamer@subsectionintoc {4}{1}{Fundamental 6-bus case}{21}{0}{4}
+\beamer@subsectionintoc {4}{2}{Interconnected 17-bus case}{26}{0}{4}
+\beamer@subsectionintoc {4}{3}{IEEE 118-bus case}{30}{0}{4}
+\beamer@sectionintoc {5}{Conclusions}{36}{0}{5}

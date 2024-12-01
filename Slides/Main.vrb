@@ -1,0 +1,10 @@
+\frametitle{Scripting: solving}
+\begin{itemize}
+    \item Let's move into our code editor.
+    \end{itemize}
+    \begin{lstlisting}[language=Python]
+pf_driver = gce.PowerFlowDriver(grid=grid)
+pf_driver.run()
+Vm = pf_driver.results.voltage
+Va = np.angle(pf_driver.results.voltage, deg=True)
+    \end{lstlisting}
