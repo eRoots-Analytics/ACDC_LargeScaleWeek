@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1733068172.83529 "Main.xdv" "Main.pdf" "Main" 1733068179.53472 0
-  "Main.xdv" 1733068171 749976 9e0e780e46171a14e797e9043aa3eca1 "xelatex"
+["xdvipdfmx"] 1733083459.74111 "Main.xdv" "Main.pdf" "Main" 1733083467.95073 0
+  "Main.xdv" 1733083458 751188 ada2c30fb64ca695335d77001f2e6349 "xelatex"
   (generated)
   "Main.pdf"
   (rewritten before read)
-["xelatex"] 1733068161.45858 "g:/.shortcut-targets-by-id/1B4zzyZBFXXFuEGTYGLt-sPLVc6VD2iL4/eRoots Analytics Shared Drive/Development/Project ACDC1 AC-DC Power Flow/Large Scale Week Slides/Main.tex" "Main.xdv" "Main" 1733068179.48879 0
+["xelatex"] 1733083443.81964 "g:/.shortcut-targets-by-id/1B4zzyZBFXXFuEGTYGLt-sPLVc6VD2iL4/eRoots Analytics Shared Drive/Development/Project ACDC1 AC-DC Power Flow/Large Scale Week Hamburg/Slides/Main.tex" "Main.xdv" "Main" 1733083467.90103 0
   "C:/Users/J/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1724936173 37602004 ada667c818a856310420fb52d16c7102 ""
   "C:/Users/J/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/symbol/psyr.tfm" 1136801054 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "C:/Users/J/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136801054 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
@@ -375,9 +375,9 @@
   "C:/Users/J/AppData/Local/Programs/MiKTeX/tex/latex/xifthen/xifthen.sty" 1448274436 5689 1bfa68243e89a54479e7d0580773c57e ""
   "Chapters/1intro.tex" 1732912782 3054 0098179e4426e6cbe115b5bc269df4cd ""
   "Chapters/2theory.tex" 1732912617 22582 f66d01e495b60cd0224c331f66889509 ""
-  "Chapters/3installation.tex" 1733068157 2596 40ea91fc5a34160a2a67bebdb77fe594 ""
+  "Chapters/3installation.tex" 1733083170 2596 1eb9af287df91c3543c18387c97cd42f ""
   "Chapters/4practical.tex" 1733055396 9588 9eb886885c4c8f8a57781a65ce7fbbc4 ""
-  "Chapters/5conclusions.tex" 1733055372 495 ddf2c8918abaf56f3492d7432b2f5a5c ""
+  "Chapters/5conclusions.tex" 1733083442 703 3c3e07a2b9e2da5dfa543f03cf91e94b ""
   "Images/17bus_issues.png" 1732983778 208739 d43503d723d1572c9028e42e7254269d ""
   "Images/17bus_solved.png" 1732983905 221950 70d62b17fa15b42f05f0cc9fdcb4307f ""
   "Images/17bus_trafo.png" 1732985068 979606 fbb6059729343091f52b16e8533bba38 ""
@@ -394,16 +394,16 @@
   "Images/python_vscode.png" 1732898556 50937 72b0fdad2b015dbbd3974afc29d379c6 ""
   "Images/sigma_ie1182.png" 1733003778 111404 07af2cb53c05056ace63c0623c2e0104 ""
   "Images/vl_ie18_v3.png" 1733055007 139734 9f39fd1414bf894e6d51c4785ead69bb ""
-  "Main.aux" 1733068171 13305 f2a2093f6d9e67d8e4da9c0710b27ebb "xelatex"
-  "Main.nav" 1733068171 5738 10ffc8e964d91bf0745d264da20ddbbf "xelatex"
-  "Main.out" 1733068171 1582 e35f83a295536292e7ee1d747f70bead "xelatex"
-  "Main.tex" 1732984591 6649 015c96156d0160c59fd5cc8e9422cb98 ""
-  "Main.toc" 1733068171 667 001f751ad1555d1561769f843fe17d7f "xelatex"
-  "Main.vrb" 1733068169 311 fe3e23450c25a81a838fa438f977c572 "xelatex"
+  "Main.aux" 1733083458 13305 f2a2093f6d9e67d8e4da9c0710b27ebb "xelatex"
+  "Main.nav" 1733083458 5738 10ffc8e964d91bf0745d264da20ddbbf "xelatex"
+  "Main.out" 1733083458 1582 e35f83a295536292e7ee1d747f70bead "xelatex"
+  "Main.tex" 1733079857 6649 015c96156d0160c59fd5cc8e9422cb98 ""
+  "Main.toc" 1733083458 667 001f751ad1555d1561769f843fe17d7f "xelatex"
+  "Main.vrb" 1733083455 311 fe3e23450c25a81a838fa438f977c572 "xelatex"
   "chapter5pics/gridcalUI.png" 1732864400 233575 9893832d3fab9312a70f049bed7692f4 ""
   "chapter5pics/hvdcMap.png" 1732864400 650258 52494f5d3153d5cc4a2dbfb4c2c8aad3 ""
   "chapter5pics/remote.png" 1732864400 47820 1cdb52f83524b64f4a05f113c17b9b5d ""
-  "g:/.shortcut-targets-by-id/1B4zzyZBFXXFuEGTYGLt-sPLVc6VD2iL4/eRoots Analytics Shared Drive/Development/Project ACDC1 AC-DC Power Flow/Large Scale Week Slides/Main.tex" 1732984591 6649 015c96156d0160c59fd5cc8e9422cb98 ""
+  "g:/.shortcut-targets-by-id/1B4zzyZBFXXFuEGTYGLt-sPLVc6VD2iL4/eRoots Analytics Shared Drive/Development/Project ACDC1 AC-DC Power Flow/Large Scale Week Hamburg/Slides/Main.tex" 1733079857 6649 015c96156d0160c59fd5cc8e9422cb98 ""
   "preamble.sty" 1732895509 4705 0b101ec19029017394ed926ba17e1c08 ""
   (generated)
   "Main.aux"

@@ -17,6 +17,7 @@ bus6 = gce.Bus(name='B6', Vnom=135)
 line12 = gce.Line(name='L12', bus_from=bus1, bus_to=bus2, r=0.001, x=0.1)
 line25 = gce.Line(name='L25', bus_from=bus2, bus_to=bus5, r=1.05, x=0.5)
 line56 = gce.Line(name='L56', bus_from=bus5, bus_to=bus6, r=0.001, x=0.1)
+line256 = gce.Line(name='L562', bus_from=bus5, bus_to=bus6, r=0.001, x=0.1)
 
 # Define DC lines
 line34 = gce.DcLine(name='L34', bus_from=bus3, bus_to=bus4, r=2.05)
@@ -50,6 +51,7 @@ grid.add_bus(bus6)
 grid.add_line(line12)
 grid.add_line(line25)
 grid.add_line(line56)
+grid.add_line(line256)
 
 grid.add_dc_line(line34)
 
